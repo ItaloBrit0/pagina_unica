@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+*  { /* isso aqui seleciona tudo  */
+
+    margin: 0;
+    padding: 0;
+    }
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: #555555;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    }
+
+
+.cabecalho{
+    padding: 1% 10% ;
+    background-color:rgb(97, 96, 96) ;
+} 
+
+
+.cabecalho__menu{
+    display: flex;
+    flex-direction:row;
+    gap: 40px;
+    
+}
+
+.cabecalho__menu__link{
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: #04aa6d;
+
+}
+
+.apresentacao{
+
+    display: flex;
+    justify-content: center;
+    padding: 2% 10%;
+    gap: 10px;
+}
+
+/* AQUI É APENAS IMAGEM */
+.apresentacao__imagem{
+
+     margin-right: 5%;
+     text-align: center;
+     width: 50%;
+}
+
+.apresentacao__imagem__img{
+
+    border-radius: 10px;
+    width: 100%;
+}
+
+/* AQUI É O CONTEUDO */
+.apresentacao__conteudo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+    
+}
+
+/* APRESENTACAO LINKS */
+
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+.apresentacao__links__titulo{
+    font-family: 'Krona one', sans-serif;
+    font-weight: 400px;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+.apresentacao__links__link{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #04aa6d;
+    border-radius: 5px;
+    width: 200px;
+    padding: 5px 0;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 650;
+    text-decoration: none;
+
+}
+
+.apresentacao__links__link:hover{
+    padding: 8px 3px;
+}
+
+  
+
+.rodape{
+    font-family: 'Krona one', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    background-color: #04aa6d;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 2px 19px;
+}
